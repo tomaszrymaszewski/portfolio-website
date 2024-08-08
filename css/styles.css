@@ -1,0 +1,59 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.parent {
+    display: grid;
+    grid-template-rows: 10vh 80vh;
+    gap: 50px;
+    padding: 20vh 20vw;
+}
+
+.content {
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 50px;
+}
+
+.left-container {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    gap: 50px;
+}
+
+.projects-container {
+    grid-row: 1;
+}
+
+.web-dev-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 50px;
+}
+
+.right-container {
+    display: grid;
+    grid-template-rows: 17% 83%;
+    gap: 50px;
+}
+
+.icons {
+    /* Custom styling for the icons or top content in the right container */
+}
+
+.resume {
+    grid-row: 2;
+}
